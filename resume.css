@@ -1,0 +1,88 @@
+/*** RESUME.CSS ***/
+
+/******************
+** THIS TEMPLATE **
+**   CONTAINS    **
+**   SELECTORS   **
+**  FOR COMMON   **
+**RESUME ELEMENTS**
+**  ALONG WITH   **
+**DEFAULT  STYLES**
+******************/
+
+
+/** BODY **/
+
+body {
+  margin: 5% 22% 0 22%;
+  font-family: sans;
+}
+
+
+/** HEADER **/
+
+header {
+  margin: auto;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+
+header ul.contact_info {
+  clear: both;
+  display: inline-block;
+}
+
+header ul.contact_info li {
+  float: left;
+  padding-right: 30px;
+  list-style-type: square;
+}
+
+header ul.contact_info li:first-of-type {
+  list-style-type: none;
+}
+
+/** SECTIONS **/
+
+div.section {
+  padding-bottom: 10px;
+}
+
+div.section h2 {
+  border-bottom: Black 1px solid;
+}
+
+div.section div.engagement {
+  margin-bottom: 10px;
+}
+
+div.section div.engagement p.place, div.section div.engagement p.task{
+  margin: 0;
+}
+
+div.section div.engagement p.place:hover, div.section div.engagement p.task:hover{
+  background-color: #ddd;
+}
+
+div.section p.place span.organization {
+  font-weight: bold;
+}
+
+div.section p.place span.location {
+  float: right;
+  clear: right;
+}
+
+div.section p.task span.position {
+  font-style: italic;
+  font-weight: bold;
+}
+
+div.section p.task span.timeframe {
+  float: right;
+  clear: right;
+}
