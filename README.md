@@ -1,2 +1,2 @@
-résumé.css is releed under the GNU Public Licensey
+résumé.css is released under the GNU Public License
 
