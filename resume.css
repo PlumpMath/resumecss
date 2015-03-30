@@ -14,6 +14,17 @@
 /** BODY **/
 
 @media screen {
+
+  header ul.contact_info li:first-of-type {
+    list-style-type: none;
+  }
+
+
+  header ul.contact_info li {
+    float: left;
+    list-style-type: block;
+  }
+
   header h1 {
     font-size: 2.5em;
   }
@@ -31,6 +42,23 @@
     font-size: .75em;
   }
 
+  header {
+    margin-bottom: 20px;
+  }
+
+  header ul.contact_info {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  header ul.contact_info li {
+    float: none;
+    font-size: .75em;
+    padding-right: 10px;
+    list-style-type: none;
+    text-align: right;
+  }
 
 }
 
@@ -54,13 +82,7 @@ header ul.contact_info {
 }
 
 header ul.contact_info li {
-  float: left;
   padding-right: 30px;
-  list-style-type: square;
-}
-
-header ul.contact_info li:first-of-type {
-  list-style-type: none;
 }
 
 /** SECTIONS **/
